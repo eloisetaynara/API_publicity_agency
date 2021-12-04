@@ -1,18 +1,10 @@
-import express, { Router } from 'express';
-const app = express();
-app.use(express.json());
+import express from 'express'
 
-const indexRoute = RouterIndex();
+const PORT = process.env.PORT || 3003
+const app = express()
+app.use(express.json())
 
-app.get('/', (req, res) => {
-    res.send(" ");
-});
+import router from './Routes/SalesControll.js'
+app.use(router)
 
-app.post('/sales', (req, res) => {
-    console.log(req.body);
-    res.send({message:'Tudo ok com o GET!'});
-});
-
-// chamando porta
-app.listen(3301, () =>
-    console.log("Api Rodando."));
+app.listen(PORT, () => console.log('API working'));

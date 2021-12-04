@@ -1,9 +1,10 @@
 import sqlite3 from 'sqlite3'
-import { passagem } from 'sqlite'
+import { open } from 'sqlite'
+
 
 export async function openDb() {
-    let ponteAberta = await passagem({
-        filename: '../src/config/database',
+    let ponteAberta = await open({
+        filename: './database.db',
         driver: sqlite3.Database
     });
     return ponteAberta
