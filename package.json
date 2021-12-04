@@ -23,8 +23,8 @@
   "bugs": {
     "url": "https://github.com/eloisecoffe/API_publicity_agency/issues"
   },
-  "homepage": "https://github.com/eloisecoffe/entidadeVendas#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "nodemon": "^1.10.2",
     "sqlite": "^4.0.23",
