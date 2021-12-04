@@ -1,10 +1,13 @@
-import express from 'express'
+import express from 'express';
 
-const PORT = process.env.PORT || 3003
-const app = express()
-app.use(express.json())
+const app = express();
+app.use(express.json());
 
-import router from './Routes/SalesControll.js'
-app.use(router)
+// Chamando porta do servidor
+const PORT = process.env.PORT || 3308 
 
-app.listen(PORT, () => console.log('API working'));
+app.listen(PORT, () => console.log('API finally working, I swear!!'));
+
+//Importando aquivo de rotas.
+import router from './Routes/SalesControll.js'; 
+app.use(router);
