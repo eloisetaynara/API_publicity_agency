@@ -4,10 +4,7 @@ import Sales2 from "../Model/SalesModel.js"
 const router = Router()
 
 router.get('/', (req, res) => {
-  res.json({
-    "statusCode": 200,
-    " msg": "This API is Working right now"
-  })
+  res.json({" msg": "This API is clearly fine! "})
 })
 
 router.get('/Sales', (req, res) => {
