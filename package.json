@@ -1,0 +1,33 @@
+{
+  "name": "entidadevendas",
+  "version": "1.0.0",
+  "description": "Projeto final de modulo 4",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eloisecoffe/API_publicity_agency.git"
+  },
+  "keywords": [
+    "node.js",
+    "API",
+    "CRUD",
+    "SALES"
+  ],
+  "author": "Eloise Taynara da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eloisecoffe/API_publicity_agency/issues"
+  },
+  "homepage": "https://github.com/eloisecoffe/entidadeVendas#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.10.2",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "type": "module"
+}
