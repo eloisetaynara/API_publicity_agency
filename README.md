@@ -5,7 +5,7 @@ _Tema base Agência de publicidade_
 _Ambiente NodeJS utilizando framework web_
 - - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
 ### Descrição
-_API construída como de estudo, usando banco de dados não relacional SQLite3, seguindo o padrão de organização MVC, com possibilidade de aplicações Web, como softwares e sites, consistindo em um protocolo sobre a Arquitetura da Informação._
+_O objetivo do estudo, foi criar uma API usando banco de dados não relacional SQLite3, seguindo o padrão de organização MVC, com possibilidade de aplicações Web, como softwares e sites, consistindo em um protocolo sobre a Arquitetura da Informação._
 
 ### Ferramentas utilizadas
 _JavaScript_
