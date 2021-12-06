@@ -1,8 +1,8 @@
 # Projeto Final de módulo 04 
-## Tema base Agência de publicidade
+Tema base Agência de publicidade
 
 ## Desenvolvimento de API Rest
-## Ambiente NodeJS utilizando framework web
+Ambiente NodeJS utilizando framework web
 
 ## Descrição
 API construída como como objeto de estudo, usando banco de dados não relacional SQLite3, seguindo o padrão de organização MVC, com possibilidade de aplicações Web, como softwares e sites, consistindo em um protocolo sobre a Arquitetura da Informação. 
