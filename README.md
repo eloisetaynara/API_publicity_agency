@@ -32,7 +32,7 @@ _Basta dar o comando <b>npm start ou npm run dev_
 Os _verbos HTTP_ vão indicar qual ação está sendo requisitada pelo consumidor do serviço.
 
 _CRUD_
-São as iniciais de das palavras em inglês Create, Read, Update, and Delete.
+São as iniciais das palavras em inglês Create, Read, Update, and Delete.
 - - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
 ### Exemplo de aplicação {
     "id": 2,
@@ -48,7 +48,7 @@ São as iniciais de das palavras em inglês Create, Read, Update, and Delete.
 - - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
 _GET_ + _id_: visualiza os dados de um cadastro especifico daquele determinado número de id. 
 _GET_ + _Sales_: Apresenta todos os cadastros efetuados.                                     
-_POST_ + _Sales_: Inseri uma nova linha de dados.                                            
+_POST_ + _Sales_: Serve para adicionar uma nova linha de dados.                                            
 _UPDATE_ + _id_: Atualizada o cadastro do id especificado.                                   
 _DELETE_ + _id_: Deleta o dado do id em especificado.                                        
 - - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
