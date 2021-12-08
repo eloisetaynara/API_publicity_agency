@@ -1,29 +1,31 @@
-# API_publicity_agency
-### Projeto Final de módulo 04 
-_Tema base Agência de publicidade_
-- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
+
+<h1 align="center">API_publicity_agency</h1>
+<br>
+
 ### Desenvolvimento de API Rest
 _Ambiente NodeJS utilizando framework web_
-- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
+<br>
+
 ### Descrição
 _O objetivo do estudo, foi criar uma API usando banco de dados não relacional SQLite3, seguindo o padrão de organização MVC, com possibilidade de aplicações Web, como softwares e sites, consistindo em um protocolo sobre a Arquitetura da Informação._
+<br>
 
-## Desenvolvimento de API Rest
+### Desenvolvimento de API Rest
 Ambiente NodeJS utilizando framework web
+<br>
 
-## Descrição
-API construída como objeto de estudo, usando banco de dados não relacional SQLite3, seguindo o padrão de organização MVC, com possibilidade de aplicações Web, como softwares e sites, consistindo em um protocolo sobre a Arquitetura da Informação. 
+### Descrição
+API construída como objeto de estudo, usando banco de dados não relacional SQLite3, seguindo o padrão de organização MVC e hospedagem feita na plataforma cloud Heroku , Uma API tem possibilidade de aplicações Web, como softwares e sites, consistindo em um protocolo sobre a Arquitetura da Informação. 
+<br>
 
-## Ferramentas utilizadas
+### Ferramentas utilizadas
 JavaScript
 NodeJS 16.13.1 LTS
 Framework Express
 SQLite
+<br>
 
-## OBS para rodar a API
-Basta dar o comando <b>npm start<b> ou <b>npm run dev<b>
-
-## Todas a dependências utilizadas
+### Todas a dependências necessárias, além do comando <b>npm install --save</b> feito no terminal
 ```
 "dependencies": {
     "dotenv": "^10.0.0",
@@ -33,30 +35,40 @@ Basta dar o comando <b>npm start<b> ou <b>npm run dev<b>
     "sqlite3": "^5.0.2"
   }
   ```
-  Este trecho pode ser encontrado dentro do arquivo _packge.json_
-- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
+  Este trecho pode ser encontrado dentro do arquivo <b>packge.json</b>
+  <br>
+### OBS para rodar a API
+Basta dar o comando <b>npm start</b> ou <b>npm run dev</b> no terminal
+<br>
 
-Os _verbos HTTP_ vão indicar qual ação está sendo requisitada pelo consumidor do serviço.
+<br>
+ <ul><b>CRUD</b>
+ <br>
+  Os verbos HTTP vão indicar qual ação está sendo requisitada pelo consumidor do serviço.                          
+ <li>Create</li>                    
+ <li>Read</li>                        
+ <li>Update</li>                     
+ <li>Delete</li>         
+ </u>
+ <br>
 
-_CRUD_
-São as iniciais das palavras em inglês Create, Read, Update, and Delete.
-- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
-### Exemplo de aplicação
-    {
-    "ID": 1,
-    "CLIENT": "Akane Yanagi",
-    "SALESMAN": "Carol",
-    "CAMPAIGN": "T-shirt workshop",
-    "BUDGET": 1399,
-    "TOTAL": 1405,
-    "DATE": "21/12/2010",
-    "FORM_OF_PAYMENT": "Dinheiro"
-  }
-### Rotas de vizualização
-- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
-_GET_ + _id_: visualiza os dados de um cadastro especifico daquele determinado número de id. 
-_GET_ + _Sales_: Apresenta todos os cadastros efetuados.                                     
-_POST_ + _Sales_: Serve para adicionar uma nova linha de dados.                                            
-_UPDATE_ + _id_: Atualizada o cadastro do id especificado.                                   
-_DELETE_ + _id_: Deleta o dado do id em especificado.                                        
-- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - -
+### Exemplos de como utilizar as rotas
+<b>GET</b>
+ <br>
+    <img src="././Example/GET.jpg" height="200" width="500">
+      <br>
+Ainda em GET se após <b>Sales/</b>  mais o <b>ID</b> de sua preferencia
+é possível ver o cadastro especificado.
+<br>
+
+<b>POST</b>
+ <br>
+   <img src="././Example/POST.jpg" height="200" width="500">
+     <br>                                   
+<b>UPDATE</b>
+ <br>
+   <img src="././Example/UPDATE.jpg" height="200" width="500">
+     <br>                          
+<b>DELETE</b>
+  <br>
+    <img src="././Example/DELETE.jpg" height="200" width="500">                             
