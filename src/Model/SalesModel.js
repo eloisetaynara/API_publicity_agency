@@ -4,7 +4,7 @@ import { selectSales, insertSales,  selectSales2, updadeSales, deleteSales } fro
 class Sales2 {
     static async selectSales(req, res) {
         try {
-            let funcionaAiVai  = await selectSales(req);
+            let funcionaAiVai = await selectSales(req);
             res.status(202).json(funcionaAiVai)
         }
         catch (error) {
@@ -32,7 +32,7 @@ class Sales2 {
             res.status(202).json(await updadeSales(req))
         }
         catch (error) {
-            res.status(409).json(error.messagem)
+            res.status(400).json(error.messagem)
         };
     };
     static async deleteSales(req, res) {

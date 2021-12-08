@@ -20,7 +20,7 @@ router.post('/Sales', (req, res) => {
 });
 
 router.patch('/Sales/:id', (req, res) => {
-  Sales2.updateSales(req, res)
+  Sales2.updadeSales(req, res)
 });
 
 router.delete('/Sales/:id', (req, res) => {
